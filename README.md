@@ -13,7 +13,7 @@ aws cloudformation wait stack-update-complete --stack-name MyNetwork
 aws cloudformation delete-stack --stack-name MyNetwork
 aws cloudformation wait stack-delete-complete --stack-name MyNetwork
 ```
-# describe-stacks
+# Describe Stacks
 ```sh
 aws cloudformation describe-stacks
 ```
