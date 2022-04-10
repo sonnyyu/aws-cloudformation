@@ -9,7 +9,7 @@ aws cloudformation update-stack --stack-name MyNetwork --template-body file://ba
 aws cloudformation wait stack-update-complete --stack-name MyNetwork
 ```
 # Delete VPC stack
-
+```sh
 aws cloudformation delete-stack --stack-name MyNetwork
 aws cloudformation wait stack-delete-complete --stack-name MyNetwork
 ```
