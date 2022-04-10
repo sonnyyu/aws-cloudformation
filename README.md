@@ -13,4 +13,3 @@ aws cloudformation wait stack-update-complete --stack-name MyNetwork
 aws cloudformation delete-stack --stack-name MyNetwork
 aws cloudformation wait delete-stack-complete --stack-name MyNetwork
 ```
-
